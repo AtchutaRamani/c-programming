@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int x,y,ans=1,i;
+printf("Enter x value");
+scanf("%d",&y);
+printf("\n Enter y value:");
+scanf("%d",&y);
+for(i=1;i<=y;i++)
+ans=ans*x;
+printf("Result is :%d\n",ans);
+return 0;
+}
